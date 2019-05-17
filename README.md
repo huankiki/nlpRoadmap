@@ -29,6 +29,8 @@
 - [ ] TextCNN
 
 ## Practice, 实践篇
+[FudanNLP/nlp-beginner](https://github.com/FudanNLP/nlp-beginner)
+
 ### Sequence Labelling, POS Tagging/NER
 序列标注：词性标注/命名实体识别
 - [ ] HMM
