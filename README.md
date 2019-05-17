@@ -29,3 +29,31 @@
 - [ ] TextCNN
 
 ## Practice, 实践篇
+### Sequence Labelling, POS Tagging/NER
+序列标注：词性标注/命名实体识别
+- [ ] HMM
+- [ ] CRF
+- [ ] (Bi)LSTM + CRF
+
+### Text Classification
+文本分类
+- [ ] LR/Softmax + BOW/tf-idf + n-gram
+- [ ] SVM
+- [ ] TextCNN
+- [ ] LSTM + Word Embedding
+
+### Language Model (NN)
+基于神经网络的语言模型的训练
+- [ ] word2vec
+- [ ] RNN/LSTM/GRU
+
+### Dialog System
+对话系统
+
+### Sentiment Analysis
+情感分析
+
+### Topic Model
+主题模型
+- [ ] LDA
+
