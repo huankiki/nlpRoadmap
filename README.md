@@ -33,6 +33,7 @@
 序列标注：词性标注/命名实体识别
 - [ ] HMM
 - [ ] CRF
+- [ ] MEM，最大熵
 - [ ] (Bi)LSTM + CRF
 
 ### Text Classification
