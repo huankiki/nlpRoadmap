@@ -24,8 +24,8 @@
 - [ ] Google BERT
 
 ### Deep Learning
-- [ ] RNN
-- [ ] LSTM/GRU
+- [x] RNN
+- [x] LSTM/GRU
 - [ ] TextCNN
 
 ## Practice, 实践篇
