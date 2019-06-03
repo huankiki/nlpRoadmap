@@ -26,7 +26,7 @@
 ### Deep Learning
 - [x] RNN
 - [x] LSTM/GRU
-- [ ] TextCNN
+- [x] TextCNN
 
 ## Practice, 实践篇
 [FudanNLP/nlp-beginner](https://github.com/FudanNLP/nlp-beginner)
