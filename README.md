@@ -14,7 +14,9 @@
   - [x] Skip-gram
   - [x] C-BOW
 - [x] GloVe  
-[Glove词向量理解](https://www.jianshu.com/p/5bbb55c35961)
+[Glove词向量理解](https://www.jianshu.com/p/5bbb55c35961)  
+[GloVe与word2vec的联系](https://ranmaosong.github.io/2018/11/21/nlp-glove/)  
+> GloVe可以被看成是更换了目标函数和权重函数的全局word2vec
 - [ ] fastText
 #### Pretrained NLP Models
 - [ ] Attention
