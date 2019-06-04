@@ -6,7 +6,7 @@
 [GitHub - nlp-roadmap](https://github.com/HaveTwoBrush/nlp-roadmap)  
 
 
-## Theory，理论篇： Deep Learning
+## Theory, 理论篇： Deep Learning
 - [x] RNN
 - [x] LSTM/GRU
 - [x] TextCNN
