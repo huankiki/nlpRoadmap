@@ -5,10 +5,8 @@
 [GitHub - nlp-tutorial](https://github.com/huankiki/nlp-tutorial)  
 [GitHub - nlp-roadmap](https://github.com/HaveTwoBrush/nlp-roadmap)  
 
-## Theory, 理论篇
-### Language Model & Word Embedding
-[从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)
-#### Word Embedding
+## Theory, 理论篇： Language Model & Word Embedding
+### Word Embedding
 - [x] NNLM
 - [x] word2vec
   - [x] Skip-gram
@@ -18,7 +16,9 @@
 [GloVe与word2vec的联系](https://ranmaosong.github.io/2018/11/21/nlp-glove/)  
 ***GloVe可以被看成是更换了目标函数和权重函数的全局word2vec***  
 - [x] fastText
-#### Pretrained NLP Models
+
+### Pretrained NLP Models
+[从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)
 - [ ] Attention
   - [ ] Seq2Seq
 - [ ] Transformer
@@ -26,12 +26,12 @@
 - [ ] OpenAI GPT
 - [ ] Google BERT
 
-### Deep Learning
+## Theory，理论篇： Deep Learning
 - [x] RNN
 - [x] LSTM/GRU
 - [x] TextCNN
 
-## Practice, 实践篇
+## Practice，实践篇
 [FudanNLP/nlp-beginner](https://github.com/FudanNLP/nlp-beginner)
 
 ### Sequence Labelling, POS Tagging/NER
@@ -41,23 +41,20 @@
 - [ ] MEM，最大熵
 - [ ] (Bi)LSTM + CRF
 
-### Text Classification
-文本分类
+### Text Classification & Sentiment Analysis
+文本分类、情感分析
 - [ ] LR/Softmax + BOW/tf-idf + n-gram
-- [ ] SVM
+- [ ] SVM + BOW/tf-idf + n-gram
 - [ ] TextCNN
 - [ ] LSTM + Word Embedding
 
 ### Language Model (NN)
 基于神经网络的语言模型的训练
-- [ ] word2vec
+- [ ] word2vec/gensim
 - [ ] RNN/LSTM/GRU
 
 ### Dialog System
 对话系统
-
-### Sentiment Analysis
-情感分析
 
 ### Topic Model
 主题模型
