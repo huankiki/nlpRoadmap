@@ -5,6 +5,13 @@
 [GitHub - nlp-tutorial](https://github.com/huankiki/nlp-tutorial)  
 [GitHub - nlp-roadmap](https://github.com/HaveTwoBrush/nlp-roadmap)  
 
+
+## Theory，理论篇： Deep Learning
+- [x] RNN
+- [x] LSTM/GRU
+- [x] TextCNN
+
+
 ## Theory, 理论篇： Language Model & Word Embedding
 ### Word Embedding
 - [x] NNLM
@@ -23,17 +30,17 @@
   
 ### Pretrained NLP Models
 [从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)
+- [ ] Seq2Seq  
+真正提出Seq2Seq的是文献[1]，但文献[2]更早地使用了Seq2Seq模型来解决机器翻译的问题。文献[1]引用了文献[2]。
+  - [1] Sequence to Sequence Learning, 2014, Google  
+ 计算量很大：8-GPU machine, Training took about a ten days with this implementation
+  - [2] Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, 2014  
 - [ ] Attention
-  - [ ] Seq2Seq
 - [ ] Transformer
 - [ ] ELMO
 - [ ] OpenAI GPT
 - [ ] Google BERT
 
-## Theory，理论篇： Deep Learning
-- [x] RNN
-- [x] LSTM/GRU
-- [x] TextCNN
 
 ## Practice，实践篇
 [FudanNLP/nlp-beginner](https://github.com/FudanNLP/nlp-beginner)
