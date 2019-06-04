@@ -13,7 +13,8 @@
 - [x] word2vec
   - [x] Skip-gram
   - [x] C-BOW
-- [ ] GloVe
+- [x] GloVe  
+[Glove词向量理解](https://www.jianshu.com/p/5bbb55c35961)
 - [ ] fastText
 #### Pretrained NLP Models
 - [ ] Attention
