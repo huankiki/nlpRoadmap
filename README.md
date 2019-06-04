@@ -15,8 +15,12 @@
 [GloVe词向量理解](https://www.jianshu.com/p/5bbb55c35961)  
 [GloVe与word2vec的联系](https://ranmaosong.github.io/2018/11/21/nlp-glove/)  
 ***GloVe可以被看成是更换了目标函数和权重函数的全局word2vec***  
-- [x] fastText
-
+- [x] fastText  
+[fastText论文解读、fastText与word2vec的区别和联系](https://blog.csdn.net/u011239443/article/details/80076720)  
+  - fastText可以用来学习词向量，也可以进行有监督的学习，如文本分类
+  - 相似点：fastText的结构与word2vec的CBOW的结构相似，并且采用了相同的优化方法，如Hierarchical Softmax
+  - 不同点：有监督fastText其实是将CBOW模型的中心词改成label（即输出层变化），将上下文词改成整个句子中的词，包括N-gram（即输入层变化）
+  
 ### Pretrained NLP Models
 [从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)
 - [ ] Attention
