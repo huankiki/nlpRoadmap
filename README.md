@@ -43,7 +43,10 @@
 [Attention论文的中文翻译](https://blog.csdn.net/qq_20135597/article/details/83758013)  
 延伸阅读：[注意力机制（Attention Mechanism）在自然语言处理中的应用](https://www.cnblogs.com/robert-dlut/p/5952032.html)  
 ![](./graph/attention_example.png)  
-- [ ] Transformer
+- [x] **Transformer**  
+从英语阅读来讲，此篇文献很容易读，但是看不懂:(……拜读了对Transform的解读之后，感慨：Transform真的是简约不简单！  
+推荐：
+[The Illustrated Transformer-Jay Alammar](https://jalammar.github.io/illustrated-transformer/)、 [The Illustrated Transformer【译】](https://blog.csdn.net/yujianmin1990/article/details/85221271)  
 - [ ] ELMO
 - [ ] OpenAI GPT
 - [ ] Google BERT
