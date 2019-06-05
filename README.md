@@ -34,9 +34,9 @@
 - [x] Seq2Seq  
 真正提出Seq2Seq的是文献[1]，但文献[2]更早地使用了Seq2Seq模型来解决机器翻译的问题。文献[1]引用了文献[2]。
   - [1] Sequence to Sequence Learning, 2014, Google  
- 计算量很大：8-GPU machine, Training took about a ten days with this implementation
+ 此文的工程性更强，计算量很大：8-GPU machine, Training took about a ten days with this implementation
   - [2] Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, 2014  
-  文献[2]末尾给出了**RNN Encoder-Decoder结构的公式推导**
+  文献[2]末尾详细给出了**RNN Encoder-Decoder**的公式推导，此文的**最大贡献是提出了GRU结构**，LSTM的简化版。
 - [ ] Attention
 - [ ] Transformer
 - [ ] ELMO
