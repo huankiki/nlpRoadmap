@@ -46,6 +46,7 @@
 拜读了对Transformer的解读之后，感慨：Transformer真的是简约不简单！ 推荐：  
 [The Illustrated Transformer-Jay Alammar](https://jalammar.github.io/illustrated-transformer/)  
 [The Illustrated Transformer【译】](https://blog.csdn.net/yujianmin1990/article/details/85221271)  
+![](./graph/transformer_structure.png)  
 - [ ] ELMO
 - [ ] OpenAI GPT
 - [ ] Google BERT  
