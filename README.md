@@ -42,6 +42,8 @@
 此文是第一个将attention机制应用到NLP领域的工作，把attention机制用到了神经网络机器翻译的RNN Encoder-Decoder模型中。  
 [Attention论文的中文翻译](https://blog.csdn.net/qq_20135597/article/details/83758013)  
 延伸阅读：[注意力机制（Attention Mechanism）在自然语言处理中的应用](https://www.cnblogs.com/robert-dlut/p/5952032.html)
+![](./graph/attention_example.png)  
+
 - [ ] Transformer
 - [ ] ELMO
 - [ ] OpenAI GPT
