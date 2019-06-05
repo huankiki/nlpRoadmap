@@ -37,7 +37,11 @@
  此文的工程性更强，计算量很大：8-GPU machine, Training took about a ten days with this implementation
   - [2] Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, 2014  
   文献[2]末尾详细给出了**RNN Encoder-Decoder**的公式推导，此文的**最大贡献是提出了GRU结构**，LSTM的简化版。
-- [ ] Attention
+- [x] Attention  
+此文作者与Seq2Seq的作者相同，包括Yoshua Bengio大神，学术味很浓，公式推导很详尽。  
+此文是第一个将attention机制应用到NLP领域的工作，把attention机制用到了神经网络机器翻译的RNN Encoder-Decoder模型中。  
+[Attention论文的中文翻译](https://blog.csdn.net/qq_20135597/article/details/83758013)  
+延伸阅读：[注意力机制（Attention Mechanism）在自然语言处理中的应用](https://www.cnblogs.com/robert-dlut/p/5952032.html)
 - [ ] Transformer
 - [ ] ELMO
 - [ ] OpenAI GPT
