@@ -6,7 +6,7 @@
 [GitHub - nlp-roadmap](https://github.com/HaveTwoBrush/nlp-roadmap)  
 
 
-## Theory, 理论篇： Deep Learning
+## √ Theory, 理论篇： Deep Learning
 - [x] RNN
 - [x] LSTM/GRU
 - [x] TextCNN
@@ -29,8 +29,6 @@
   - 不同点：有监督fastText其实是将CBOW模型的中心词改成label（即输出层变化），将上下文词改成整个句子中的词，包括N-gram（即输入层变化）
   
 ### Pretrained NLP Models
-[从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)  
-
 - [x] Seq2Seq  
 真正提出Seq2Seq的是文献[1]，但文献[2]更早地使用了Seq2Seq模型来解决机器翻译的问题。文献[1]引用了文献[2]。
   - [1] Sequence to Sequence Learning, 2014, Google  
@@ -45,15 +43,19 @@
 ![](./graph/attention_example.png)  
 - [x] **Transformer**  
 从英语阅读来讲，此文易读，但是看不懂:(  
-拜读了对Transform的解读之后，感慨：Transform真的是简约不简单！ 推荐：  
+拜读了对Transformer的解读之后，感慨：Transformer真的是简约不简单！ 推荐：  
 [The Illustrated Transformer-Jay Alammar](https://jalammar.github.io/illustrated-transformer/)  
 [The Illustrated Transformer【译】](https://blog.csdn.net/yujianmin1990/article/details/85221271)  
 - [ ] ELMO
 - [ ] OpenAI GPT
 - [ ] Google BERT  
-与Transform的那篇解读是同一个Blog。  
+与Transformer的那篇解读是同一个Blog。  
 [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)-Jay Alammar](https://jalammar.github.io/illustrated-bert/)  
-[The Illustrated BERT【译】](https://blog.csdn.net/qq_41664845/article/details/84787969)
+[The Illustrated BERT【译】](https://blog.csdn.net/qq_41664845/article/details/84787969)  
+
+#### 相关阅读
+- [从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)  
+- [从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史](https://zhuanlan.zhihu.com/p/49271699)
 
 
 ## Practice，实践篇
