@@ -51,15 +51,13 @@
 Embeddings from Language Models。ELMo是双向语言模型biLM的多层表示的组合，基于大量文本，从深层的双向语言模型（deep bidirectional language model）中的内部状态(internal state)学习而来。不仅能够学习到词语用法在语义和语法上的复杂特点，而且能够学习不同上下文情况下的词汇多义性。论文标题：Deep contextualized word representations，即深度语境化的单词表示，可以根据上下文学习。  
 [ELMo算法介绍](https://blog.csdn.net/triplemeng/article/details/82380202)
 - [x] OpenAI GPT  
+[OpenAI GPT-译](https://zhuanlan.zhihu.com/p/54754171)  
 此文提出一种半监督的方式来提升语言理解的任务。
   - 使用非监督的预训练和监督方式的微调（**unsupervised pre-training and supervised fine-tuning**）。目标是学习一个通用的语言表示，然后经过很小的调整就可以应用在各种任务中。这个模型的设置不需要目标任务和非标注的数据集在同一个领域。
   - 模型有两个过程：1，在未标记的数据上训练语言模型，即unsupervised pre-training；2，然后使用相应的监督目标使这些参数适应目标任务
   - **思想上与ELMo相似**，即迁移学习在nlp领域的应用。不同点是ELMo的语言模型是基于LSTM的BiLM，而GPT的语言模型是基于多层Transformer的decoder的语言模型，相比LSTM，可以更好的捕获长距离语言结构。另外，在有监督学习微调时，需要将不同任务的输入变换成预训练模型需要的形式。
-  - 在12个NLP任务上进行了实验，9个任务获得了最好的结果  
-  
-[OpenAI GPT-译](https://zhuanlan.zhihu.com/p/54754171)
-
-- [ ] Google BERT  
+  - 在12个NLP任务上进行了实验，9个任务获得了最好的结果   
+- [ ] **Google BERT**  
 与Transformer的那篇解读是同一个Blog。  
 [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)-Jay Alammar](https://jalammar.github.io/illustrated-bert/)  
 [The Illustrated BERT【译】](https://blog.csdn.net/qq_41664845/article/details/84787969)  
