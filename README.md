@@ -47,7 +47,9 @@
 [The Illustrated Transformer-Jay Alammar](https://jalammar.github.io/illustrated-transformer/)  
 [The Illustrated Transformer【译】](https://blog.csdn.net/yujianmin1990/article/details/85221271)  
 ![](./graph/transformer_structure.png)  
-- [ ] ELMO
+- [x] ELMO  
+Embeddings from Language Models。ELMo是双向语言模型biLM的多层表示的组合，基于大量文本，从深层的双向语言模型（deep bidirectional language model）中的内部状态(internal state)学习而来。不仅能够学习到词语用法在语义和语法上的复杂特点，而且能够学习不同上下文情况下的词汇多义性。论文标题：Deep contextualized word representations，即深度语境化的单词表示，可以根据上下文学习。  
+[ELMo算法介绍](https://blog.csdn.net/triplemeng/article/details/82380202)
 - [ ] OpenAI GPT
 - [ ] Google BERT  
 与Transformer的那篇解读是同一个Blog。  
