@@ -12,7 +12,7 @@
 - [x] TextCNN
 
 
-## Theory, 理论篇： Language Model & Word Embedding
+## √ Theory, 理论篇： Language Model & Word Embedding
 ### Word Embedding
 - [x] NNLM
 - [x] word2vec
@@ -57,12 +57,27 @@ Embeddings from Language Models。ELMo是双向语言模型biLM的多层表示�
   - 模型有两个过程：1，在未标记的数据上训练语言模型，即unsupervised pre-training；2，然后使用相应的监督目标使这些参数适应目标任务
   - **思想上与ELMo相似**，即迁移学习在nlp领域的应用。不同点是ELMo的语言模型是基于LSTM的BiLM，而GPT的语言模型是基于多层Transformer的decoder的语言模型，相比LSTM，可以更好的捕获长距离语言结构。另外，在有监督学习微调时，需要将不同任务的输入变换成预训练模型需要的形式。
   - 在12个NLP任务上进行了实验，9个任务获得了最好的结果   
-- [ ] **Google BERT**  
+- [x] **Google BERT**  
 与Transformer的那篇解读是同一个Blog。  
 [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)-Jay Alammar](https://jalammar.github.io/illustrated-bert/)  
 [The Illustrated BERT【译】](https://blog.csdn.net/qq_41664845/article/details/84787969)  
+[十分钟读懂谷歌BERT模型](https://zhuanlan.zhihu.com/p/51413773)  
 
-#### 相关阅读
+  - **BERT**：**B**idirectional **E**ncoder **R**epresentations from **T**ransformers，基于Transformer的双向编码表征器  
+  BERT刷新了11项NLP任务的性能记录
+  - ELMO .vs. BERT。ELMO，*feature-based pre-trained language representation*，仅仅将预训练得到的表示作为附加的特征，同时语言模型是单向的
+  - GPT .vs. BERT。*fine-tuning pre-trained language representation*，语言模型也是单向的，同时对特定的下游任务，结构需要变化，以保证输入形式匹配
+  - BERT也是Pre-training + fine-tuning的方法
+  - **BERT关键词(1)：masked language model(MLM)，遮蔽语言模型，可以做到预训练双向的语言模型**，即 Bidirectional
+  - **BERT关键词(2)：next sentence prediction，下一句预测，让模型理解两个句子之间的联系**，比如问答任务中的Question和Answer
+  - **BERT关键词(3)：Deep + Transformer**，BERT Transforme 使用双向self-attention，在文献中，双向 Transformer通常被称为“Transformer encoder”  
+  
+下图：BERT与ELMO、GPT的区别，以及BERT在分类、命名实体识别等特定NLP任务上的结构图  
+![](./graph/BERT.png)
+
+
+#### 相关阅读【将Attention、Transformer、ELMO、GPT和BERT联系到一起】
+终于于于认识你：BERT，了解了来龙去脉，你也是站在了巨人的肩膀上……  
 - [从Attention,Transformer,ELMO,GPT到BERT](http://www.bdpt.net/cn/2019/01/22/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF-%E4%BB%8Eattentiontransformerelmogpt%E5%88%B0bert/)  
 - [从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史](https://zhuanlan.zhihu.com/p/49271699)  
 - [自然语言处理中的语言模型预训练方法（ELMo、GPT和BERT）](https://www.cnblogs.com/robert-dlut/p/9824346.html)  
