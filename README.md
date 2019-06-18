@@ -87,11 +87,10 @@ Embeddings from Language Models。ELMo是双向语言模型biLM的多层表示�
 ## Practice，实践篇
 [FudanNLP/nlp-beginner](https://github.com/FudanNLP/nlp-beginner)
 
-### Sequence Labelling, POS Tagging/NER
-序列标注：词性标注/命名实体识别
-- [ ] HMM
-- [ ] CRF
-- [ ] MEM，最大熵
+### [ongoing] Sequence Labeling, POS Tagging/NER
+序列标注：词性标注/命名实体识别  
+**更多内容/代码：[Github-huankiki/sequence_labeling_nlp](https://github.com/huankiki/sequence_labeling_nlp)**
+- [ ] HMM/CRF/MEM(最大熵)
 - [ ] (Bi)LSTM + CRF
 
 ### Text Classification & Sentiment Analysis
